@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbeeh Counter</title>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-6 img">
+                    <img src="./assets/imgs/img1.png" alt="">
+                </div>
+                <div class="col-md-6 img">
+                    <img src="./assets/imgs/img2.png" alt="">
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card text-center counter bg-transparent">
+                            <div class="card-header">
+                              <h3>Tasbeeh Counter</h3>
+                            </div>
+                            <div class="card-body">
+                              <h3 class="card-title">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h3>
+                              <h1 id="text" class="card-text">0</h1>
+                              <button onclick="Inc()" type="button" class="btn btn-success"><img src="./assets/imgs/plus.png" alt=""></button>
+                              <button onclick="Res()" type="button" class="btn btn-danger"><img src="./assets/imgs/reset.png" alt=""></button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
